@@ -14,6 +14,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar{
+  width: 0.5rem;
+  background: rgb(229, 165, 93, 0.2);
+}
+
+::-webkit-scrollbar-thumb{
+  width: 100%;
+  background: var(--primaryColor);
+  border-radius: 0.25rem;
+}
+
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
